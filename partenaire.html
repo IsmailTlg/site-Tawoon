@@ -8,6 +8,154 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <nav>
+        <img src="assets/images/logoTawoon.png" alt="logo de Tawoon-retour a l'accueil">
+        <a href="index.html">Accueil</a>
+        <a href="cooperatives.html">Coopératives</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="partenaire.html">Devenir partenaire</a>
+    </nav>
+    <main>
+        <section>
+            <div>
+                <h1>
+                    Rejoindre le Répertoire National
+                    <br>des Coopératives Taawon
+                </h1>
+                <p>
+                    Faites référencer votre coopérative, protégez votre savoir-faire artisanal et offrez une
+                    <br>visibilité authentique à vos maîtres artisans sans aucun intermédiaire marchand.
+                </p>
+            </div>
+            <div><img src="assets/images/image.png" alt="picture of a woman working"></div>
+        </section>
+        <section>
+            <h1>
+                Un processus rigoureux, transparent &
+                <br>solidaire
+            </h1>
+            <p>Une démarche collaborative conçue avec et pour les coopératives
+                <br>marocaines pour garantir l'origine et l'excellence de chaque métier d'art.
+            </p>
+        </section>
+        <section>
+            <div>
+                <h2>Pourquoi s'inscrire ?</h2>
+                <ul>
+                    <li>
+                        Répertoire officiel consulté par les chercheurs,
+                        <br>conservateurs et passionnés.
+                    </li>
+                    <li>
+                        <br>Mise en relation directe avec les clients et
+                        <br>voyageurs responsables (téléphone, atelier,
+                        <br>email).
+                    </li>
+                    <li>
+                        <br>Protection et documentation archivistique
+                        <br>contre la contrefaçon industrielle.
+                    </li>
+                </ul>
+                <img src="assets/images/image.png" alt="guy working">
+                <h3>
+                    <br>« Taawon préserve notre voix
+                    <br>authentique. Nous recevons les
+                    <br>visiteurs directement au village sans
+                    <br>intermédiaire. »
+                </h3>
+                <p>— Coopérative potière de l'Oued Laou</p>
+            </div>
+            <div>
+                <h2>Dossier de Candidature Coopérative</h2>
+                <p>
+                    <br>Veuillez renseigner les informations exactes de votre structure. Les champs annotés d'un astérisque sont
+                    <br>indispensables à l'instruction du dossier.
+                </p>
+                <hr>
+                <form>
+                    <h3>Identité de la Coopérative</h3>
+                    <label for="nomCoop">NOM OFFICIEL DE LA COOPÉRATIVE *</label><br>
+                    <input type="text" id="nomCoop" name="nomCoop" required minlength="3">
+                    <div>
+                        <label for="region">RÉGION / PROVINCE *</label><br>
+                        <select name="region" id="region" required>
+                            <option value="Tanger..">Tanger-Tétouan-Al Hoceïma</option>
+                            <option value="Oriental">L'Oriental</option>
+                            <option value="Fes..">Fès-Meknès</option>
+                            <option value="Rabat..">Rabat-Salé-Kénitra</option>
+                            <option value="beniMellal...">Béni Mellal-Khénifra</option>
+                            <option value="Casablanca..">Casablanca-Settat</option>
+                            <option value="Marrakech..">Marrakech-Safi</option>
+                            <option value="Draa..">Drâa-Tafilalet</option>
+                            <option value="Souss..">Souss-Massa</option>
+                            <option value="Guelmim...">Guelmim-Oued Noun</option>
+                            <option value="Laayoune">Laâyoune-Sakia El Hamra</option>
+                            <option value="Dakhla">Dakhla-Oued Ed-Dahab</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="artisan">FILIÈRE ARTISANALE PRINCIPALE *</label><br>
+                        <select name="artisan" id="artisan" required><br>
+                            <option value="1">Tissage & Tapis Amazighs</option>
+                            <option value="2">Huile d'Argan & Cosmétique</option>
+                            <option value="3">Poterie & Céramique</option>
+                            <option value="4">Zellige & Géométrie d'Art</option>
+                            <option value="5">Travail du Cuir</option>
+                            <option value="6">Vannerie & Sparterie</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <h3>Gouvernance & Contact Direct</h3>
+                    <div>
+                        <label for="president">PRÉSIDENT OU MAÎTRE ARTISAN*</label><br>
+                        <input type="text" id="president" name="president" required minlength="3">
+                    </div>
+                    <div>
+                        <label for="email">EMAIL INSTITUTIONNEL *</label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="number">TÉLÉPHONE / WHATSAPP *</label><br>
+                        <input type="tel" id="number" name="number" required pattern="^(\+212|0)[5-7][0-9]{8}$">
+                    </div>
+                    <h3>Atelier & Patrimoine Technique</h3>
+                    <label for="memebers">NOMBRE D'ARTISANES ET ARTISANS MEMBRES *</label><br>
+                    <input type="number" id="memebers" name="memebers" required>
+                    <label for="descrip">DESCRIPTION SUCCINCTE DES TECHNIQUES ET MATIÈRES PREMIÈRES TRADITIONNELLES *</label><br>
+                    <textarea name="descrip" id="descrip"></textarea><br>
+                    <input type="checkbox" required name="consent" id="consent">
+                    <label for="consent">
+                        J'atteste sur l'honneur respecter la Charte Éthique de l'artisanat solidaire Taawon (valorisation du
+                        <br>travail manuel, non-exploitation, rémunération équitable et préservation de l'environnement).
+                    </label><br>
+                    <button type="submit">
+                        Envoyer la demande de
+                        <br>référencement
+                    </button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h2>Tawoon</h2>
+            <p>Plateforme d'archives, de référencement et de
+                <br>valorisation des coopératives artisanales du
+                <br>Royaume du Maroc. Préserver les gestes, honorer
+                <br>les bâtisseurs.
+            </p>
+            <h3>Nous Contact: </h3>
+            <table>
+                <tr>
+                    <td><a href="https://X.com" target="_blank"><img src="assets/icons/twitter.png" alt="twitter logo" width="25"></a></td>
+                    <td><a href="https://youtube.com" target="_blank"><img src="assets/icons/youtube.png" alt="youtube logo" width="25"></a></td>
+                    <td><a href="https://instagram.com" target="_blank"><img src="assets/icons/instagram.png" alt="instagram logo" width="25"></a></td>
+                    <td><a href="https://linkedin.com" target="_blank"><img src="assets/icons/linkedin.png" alt="linkedin logo" width="25"></a></td>
+                </tr>
+            </table>
+            <p>© 2024 Taawon. Répertoire de sauvegarde des coopératives artisanales marocaines.</p>
+        </div>
+    </footer>
 </body>
 </html>
