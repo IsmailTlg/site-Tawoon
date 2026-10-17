@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header class="text-gray-600 flex">
+    <header class="text-gray-600 flex flex-wrap items-center justify-center">
         <a href="index.html"><img src="assets/images/logo-no-background.png" alt="logo de taawoniya" width="190" class="flex justify-center items-center"></a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base flex-start gap-5">
                 <a href="index.html">Accueil</a>
@@ -19,147 +19,184 @@
         <a href="partenaire.html" class="flex flex-start items-center mr-8 bg-[#556B2F] text-white rounded font-medium shadow-md hover:opacity-75 transition duration-200 w-40 h-11 m-8 pl-3">Devenir partenaire</a>
     </header>
     <main>
-        <section>
-            <div>
-                <h1>
-                    Rejoindre le Répertoire National
-                    <br>des Coopératives Taawon
-                </h1>
-                <p>
-                    Faites référencer votre coopérative, protégez votre savoir-faire artisanal et offrez une
-                    <br>visibilité authentique à vos maîtres artisans sans aucun intermédiaire marchand.
-                </p>
-            </div>
-            <div>
-                <img src="assets/icons/badge (1).png" alt="icon verifiction" width="18.33" height="17.5">
-                <span>100% Non-commercial </span>
-                <img src="assets/icons/medical.png" alt="icon production" width="13.33" height="16.67">
-                <span>Label de Traçabilité Ethique </span>
-                <img src="assets/icons/earth.png" alt="icon world" width="16.67" height="16.67">
-                <span>Rayonement 12 Régions</span>
+        <section class="flex justify-center gap-5 items-center flex-wrap">
+            <div class="flex flex-col gap-7">
+                <div class="flex flex-col gap-7 flex-wrap">
+                    <h1 class="text-5xl font-bold text-[#5F4828]">
+                        Rejoindre le Répertoire National
+                        <br>des Coopératives Taawon
+                    </h1>
+                    <p class="font-bold text-[#45483C]">
+                        Faites référencer votre coopérative, protégez votre savoir-faire artisanal et offrez une
+                        <br>visibilité authentique à vos maîtres artisans sans aucun intermédiaire marchand.
+                    </p>
                 </div>
-            
-            <div>
-                <img src="assets/images/l7aja-apropos.jpg" alt="picture of a woman working">
+                <div class="flex justify-start items-center gap-6">
+                    <div class="flex gap-2 items-center justify-start">
+                        <img src="assets/icons/badge2.png" alt="icon verifiction" width="18.33" height="17.5">
+                        <span class="text-[#2C160E] text-xs">100% Non-commercial </span>
+                    </div>
+                    <div class="flex gap-2 items-center justify-start">
+                        <img src="assets/icons/medical.png" alt="icon production" width="13.33" height="16.67">
+                        <span class="text-[#2C160E] text-xs">Label de Traçabilité Ethique </span>
+                    </div> 
+                    <div class="flex gap-2 items-center justify-start">
+                        <img src="assets/icons/earth.png" alt="icon world" width="16.67" height="16.67">
+                        <span class="text-[#2C160E] text-xs">Rayonement 12 Régions</span>
+                    </div>
+                </div>
             </div>
             <div>
-                <p>PATRIMOINE IMMATÉRIEL</p>
-                <p>Transmission & Digité</p>
-                <img src="assets/icons/open-book (1).png" alt="book" width="40" height="40">
+                <div>
+                    <img src="assets/images/l7aja-apropos.jpg" alt="picture of a woman working" class="rounded-sm">
+                </div>
+                <div class="flex justify-start items-center gap-2 p-3 bg-red-50 rounded-sm shadow-xl">
+                    <div>
+                        <p>PATRIMOINE IMMATÉRIEL</p>
+                        <p>Transmission & Digité</p>
+                    </div>
+                    <img src="assets/icons/open-book (1).png" alt="book" width="40" height="40">
+                </div>
             </div>
         </section>
-        <section>
-            <h1>
+        <section class="flex justify-between p-10 flex-wrap">
+            <h1 class="text-3xl font-bold text-[#5F4828]">
                 Un processus rigoureux, transparent &
                 <br>solidaire
             </h1>
-            <p>Une démarche collaborative conçue avec et pour les coopératives
+            <p class="text-base text-[#45483C] mt-6">Une démarche collaborative conçue avec et pour les coopératives
                 <br>marocaines pour garantir l'origine et l'excellence de chaque métier d'art.
             </p>
         </section>
-        <section>
-            <div>
-                <h2>Pourquoi s'inscrire ?</h2>
-                <ul>
-                    <li>
-                        Répertoire officiel consulté par les chercheurs,
-                        <br>conservateurs et passionnés.
-                    </li>
-                    <li>
-                        <br>Mise en relation directe avec les clients et
-                        <br>voyageurs responsables (téléphone, atelier,
-                        <br>email).
-                    </li>
-                    <li>
-                        <br>Protection et documentation archivistique
-                        <br>contre la contrefaçon industrielle.
-                    </li>
-                </ul>
-                <img src="assets/images/l7aj-inscription.jpg" alt="guy working">
-                <h3>
-                    <br>« Taawon préserve notre voix
-                    <br>authentique. Nous recevons les
-                    <br>visiteurs directement au village sans
-                    <br>intermédiaire. »
-                </h3>
-                <p>— Coopérative potière de l'Oued Laou</p>
+        <section class="bg-[#FFF1ED] grid grid-cols-1 md:grid-cols-3">
+            <div class="flex flex-col gap-4 m-6">
+                <div class="bg-white rounded-xl shadow-xl p-6">
+                    <h2 class="text-2xl text-[#442A22] font-bold">Pourquoi s'inscrire ?</h2>
+                    <div class="flex flex-col gap-4 p-4">
+                        <div class="flex items-start gap-2">
+                            <img src="assets/icons/badge2.png" alt="verified icon" width="25">
+                            <p>
+                                Répertoire officiel consulté par les chercheurs,
+                                <br>conservateurs et passionnés.
+                            </p>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <img src="assets/icons/badge2.png" alt="verified icon" width="25">
+                            <p>
+                                Mise en relation directe avec les clients et
+                                <br>voyageurs responsables (téléphone, atelier,
+                                <br>email).
+                            </p>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <img src="assets/icons/badge2.png" alt="verified icon" width="25">
+                            <p>
+                                Protection et documentation archivistique
+                                <br>contre la contrefaçon industrielle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center gap-4">
+                    <img src="assets/images/l7aj-inscription.jpg" alt="guy working" class="rounded-sm shadow xl">
+                    <h3 class="text-xl font-bold text-center">
+                        <br>« Taawon préserve notre voix
+                        <br>authentique. Nous recevons les
+                        <br>visiteurs directement au village sans
+                        <br>intermédiaire. »
+                    </h3>
+                    <p>Coopérative potière de l'Oued Laou</p>
+                </div>
             </div>
-            <div>
-                <h2>Dossier de Candidature Coopérative</h2>
-                <p>
+            <div class="bg-white rounded-xl shadow-xl p-6 col-span-2 m-6 ml-0">
+                <h2 class="text-3xl font-bold text-[#442A22]">Dossier de Candidature Coopérative</h2>
+                <p class="text-[#45483C]">
                     <br>Veuillez renseigner les informations exactes de votre structure. Les champs annotés d'un astérisque sont
                     <br>indispensables à l'instruction du dossier.
                 </p>
-                <hr>
+                <hr class="border-gray-300 my-4">
                 <form>
-                    <img src="assets/icons/letter-a.png" alt="A" width="24" height="24">
-                    <h3>Identité de la Coopérative</h3>
+                    <div class="flex gap-2 items-center m-4">
+                        <img src="assets/icons/letter-a.png" alt="A" width="35" height="35">
+                        <h3 class="text-xl font-bold">Identité de la Coopérative</h3>
+                    </div>
                     <label for="nomCoop">NOM OFFICIEL DE LA COOPÉRATIVE *</label><br>
-                    <input type="text" id="nomCoop" name="nomCoop" required minlength="3">
-                    <div>
-                        <label for="region">RÉGION / PROVINCE *</label><br>
-                        <select name="region" id="region" required>
-                            <option value="Tanger..">Tanger-Tétouan-Al Hoceïma</option>
-                            <option value="Oriental">L'Oriental</option>
-                            <option value="Fes..">Fès-Meknès</option>
-                            <option value="Rabat..">Rabat-Salé-Kénitra</option>
-                            <option value="beniMellal...">Béni Mellal-Khénifra</option>
-                            <option value="Casablanca..">Casablanca-Settat</option>
-                            <option value="Marrakech..">Marrakech-Safi</option>
-                            <option value="Draa..">Drâa-Tafilalet</option>
-                            <option value="Souss..">Souss-Massa</option>
-                            <option value="Guelmim...">Guelmim-Oued Noun</option>
-                            <option value="Laayoune">Laâyoune-Sakia El Hamra</option>
-                            <option value="Dakhla">Dakhla-Oued Ed-Dahab</option>
-                        </select>
+                    <input class="rounded-sm p-1 w-full bg-[#FFF1ED] mt-2" type="text" id="nomCoop" name="nomCoop" placeholder="Ex. Coopérative Artisanale Al-Baraka" required minlength="3">
+                    <div class="flex justify-around m-8 gap-20 flex-wrap">
+                        <div>
+                            <label for="region">RÉGION / PROVINCE *</label><br>
+                            <select name="region" id="region" required class="rounded-sm p-1 bg-[#FFF1ED] my-2" type="text">
+                                <option value="Tanger..">Tanger-Tétouan-Al Hoceïma</option>
+                                <option value="Oriental">L'Oriental</option>
+                                <option value="Fes..">Fès-Meknès</option>
+                                <option value="Rabat..">Rabat-Salé-Kénitra</option>
+                                <option value="beniMellal...">Béni Mellal-Khénifra</option>
+                                <option value="Casablanca..">Casablanca-Settat</option>
+                                <option value="Marrakech..">Marrakech-Safi</option>
+                                <option value="Draa..">Drâa-Tafilalet</option>
+                                <option value="Souss..">Souss-Massa</option>
+                                <option value="Guelmim...">Guelmim-Oued Noun</option>
+                                <option value="Laayoune">Laâyoune-Sakia El Hamra</option>
+                                <option value="Dakhla">Dakhla-Oued Ed-Dahab</option>
+                            </select>
+                            </div>
+                            <div>
+                                <label for="artisan">FILIÈRE ARTISANALE PRINCIPALE *</label><br>
+                                <select name="artisan" id="artisan" class="rounded-sm p-1 bg-[#FFF1ED] my-2" required><br>
+                                    <option value="1">Tissage & Tapis Amazighs</option>
+                                    <option value="2">Huile d'Argan & Cosmétique</option>
+                                    <option value="3">Poterie & Céramique</option>
+                                    <option value="4">Zellige & Géométrie d'Art</option>
+                                    <option value="5">Travail du Cuir</option>
+                                    <option value="6">Vannerie & Sparterie</option>
+                                </select>
+                            </div>
                     </div>
-                    <div>
-                        <label for="artisan">FILIÈRE ARTISANALE PRINCIPALE *</label><br>
-                        <select name="artisan" id="artisan" required><br>
-                            <option value="1">Tissage & Tapis Amazighs</option>
-                            <option value="2">Huile d'Argan & Cosmétique</option>
-                            <option value="3">Poterie & Céramique</option>
-                            <option value="4">Zellige & Géométrie d'Art</option>
-                            <option value="5">Travail du Cuir</option>
-                            <option value="6">Vannerie & Sparterie</option>
-                        </select>
+                    <hr class="border-gray-300 my-4">
+                    <div class="flex gap-2 items-center m-4">
+                        <img src="assets/icons/letter-b.png" alt="B" width="24" height="24">
+                        <h3 class="text-xl font-bold">Gouvernance & Contact Direct</h3>
                     </div>
-                    <hr>
-                    <img src="assets/icons/letter-b.png" alt="B" width="24" height="24">
-                    <h3>Gouvernance & Contact Direct</h3>
-                    <div>
-                        <label for="president">PRÉSIDENT OU MAÎTRE ARTISAN*</label><br>
-                        <input type="text" id="president" name="president" required minlength="3">
+                    <div class="flex justify-around flex-wrap">
+                        <div>
+                            <label for="president">PRÉSIDENT OU MAÎTRE ARTISAN*</label><br>
+                            <input type="text" id="president" name="president" class="rounded-sm p-1 bg-[#FFF1ED] my-2" placeholder="Nom et prénom" required minlength="3">
+                        </div>
+                        <div>
+                            <label for="email">EMAIL INSTITUTIONNEL *</label><br>
+                            <input type="email" name="email" id="email" class="rounded-sm p-1 bg-[#FFF1ED] my-2 pr-6" placeholder="contact@cooperative.ma" required>
+                        </div>
+                        <div>
+                            <label for="number">TÉLÉPHONE / WHATSAPP *</label><br>
+                            <input type="tel" id="number" name="number" class="rounded-sm p-1 bg-[#FFF1ED] my-2" placeholder="+212 6 XX XX XX XX" required pattern="^(\+212|0)[5-7][0-9]{8}$">
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">EMAIL INSTITUTIONNEL *</label><br>
-                        <input type="email" name="email" id="email" required>
+                    <hr class="border-gray-300 my-4">
+                    <div class="flex gap-2 items-center m-4">
+                        <img src="assets/icons/letter-c.png" alt="C" width="24" height="24">
+                        <h3 class="text-xl font-bold">Atelier & Patrimoine Technique</h3>
                     </div>
-                    <div>
-                        <label for="number">TÉLÉPHONE / WHATSAPP *</label><br>
-                        <input type="tel" id="number" name="number" required pattern="^(\+212|0)[5-7][0-9]{8}$">
-                    </div>
-                    <img src="assets/icons/letter-c.png" alt="C" width="24" height="24">
-                    <h3>Atelier & Patrimoine Technique</h3>
                     <label for="memebers">NOMBRE D'ARTISANES ET ARTISANS MEMBRES *</label><br>
-                    <input type="number" id="memebers" name="memebers" required>
-                    <label for="descrip">DESCRIPTION SUCCINCTE DES TECHNIQUES ET MATIÈRES PREMIÈRES TRADITIONNELLES *</label><br>
-                    <textarea name="descrip" id="descrip"></textarea><br>
+                    <input type="number" id="memebers" name="memebers" class="rounded-sm p-1 bg-[#FFF1ED] my-2"  placeholder="Ex. 24" required> <br>
+                    <label for="descrip">DESCRIPTION SUCCINCTE DES TECHNIQUES ET MATIÈRES PREMIÈRES TRADITIONNELLES *</label> <br>
+                    <textarea name="descrip" id="descrip" class="rounded-sm p-1 bg-[#FFF1ED] my-2 w-full h-[80px]" placeholder="Décrivez vos procédés manuels, vos sources de matières locales (laine naturelle, teintures végétales, argile locale, bois de cèdre certifié...) et l'histoire de la communauté..."></textarea><br>
                     <input type="checkbox" required name="consent" id="consent">
                     <label for="consent">
                         J'atteste sur l'honneur respecter la Charte Éthique de l'artisanat solidaire Taawon (valorisation du
                         <br>travail manuel, non-exploitation, rémunération équitable et préservation de l'environnement).
                     </label><br>
-                    <button type="submit">
-                        Envoyer la demande de
-                        <br>référencement
-                    </button>
+                    <div class="flex justify-center items-center mt-6">
+                        <button type="submit" class="bg-[#556B2F] text-white rounded font-medium shadow-md hover:opacity-75 transition duration-200 p-2">
+                            Envoyer la demande de
+                            <br>référencement
+                        </button>
+                    </div>
                 </form>
 
             </div>
         </section>
     </main>
-    <footer class="bg-[#442A22] flex font-medium justify-around text-[#FFDDB2] p-8 mt-8">
+    <footer class="bg-[#442A22] flex font-medium justify-around flex-wrap text-[#FFDDB2] p-8 mt-8">
         <div>
             <h2 class="text-4xl mb-6">Tawoon</h2>
             <p>Plateforme d'archives, de référencement et de
@@ -169,7 +206,7 @@
             </p>
         </div>
         <div>
-            <h3 class="text-2xl mb-6">Nous Contact: </h3>
+            <h3 class="text-2xl mb-6 my-6">Nous Contact: </h3>
             <table>
                 <tr class="flex gap-3 mb-12">
                     <td><a href="https://X.com" target="_blank" class="hover:opacity-75 hover:invert transition duration-200"><img src="assets/icons/twitter.png" alt="twitter logo" width="25"></a></td>
