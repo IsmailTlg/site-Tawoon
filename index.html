@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header class="text-gray-600 body-font flex">
+    <header class="text-gray-600 body-font flex flex-wrap items-center justify-center">
         <a href="index.html"><img src="assets/images/logo-no-background.png" alt="logo de taawoniya" width="190" class="flex justify-center items-center"></a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base flex-start gap-5">
                 <a href="index.html" class="inline-block px-6 py-2.5 bg-[#556B2F] text-white font-medium text-sm rounded shadow-md hover:opacity-75 transition duration-200">Accueil</a>
@@ -20,7 +20,7 @@
     </header>
     <main>
         <!--these sections for now wont have the fancy decorations, we will add that later-->
-        <section class="flex justify-center items-center m-6"> 
+        <section class="flex justify-center items-center flex-wrap m-6 md:flex-nowrap"> 
             <div>
                 <h1 class="text-3xl font-bold">Valorisons le savoir-faire de <br>nos coopératives</h1>
                 <p class="m-4">
@@ -63,7 +63,7 @@
         <section class="ml-8">
             <h2 class="text-3xl font-bold my-4">Explorez nos Métiers d'Art & Savoir-faire</h2>
             <p>Du fil de laine aux émaux de Fès, parcourez les trésors façonnés à la main au cœur de nos ateliers communautaires.</p>
-            <article class="grid grid-cols-2 gap-y-6 my-10">
+            <article class="grid grid-cols-1 gap-y-6 my-10 xl:grid-cols-2">
                 <!--Add icons for divs with h3-->
                 <!--Add image of artisan in divs with only img-->
                 <!--the divs will be alternating between artisan info and artisan image-->
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/images/indx1.jpg" alt="" class="ml-60 rounded-sm shadow-xl">
+                    <img src="assets/images/indx1.jpg" alt="" class="rounded-sm shadow-xl md:ml-60">
                 </div>
                 <div>
                     <div class="bg-[#FFE9E3] p-3 w-[60px] rounded-xl mb-5">
@@ -104,7 +104,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/images/indx3.jpg" alt="" class="ml-60 rounded-sm shadow-xl">
+                    <img src="assets/images/indx3.jpg" alt="" class="md:ml-60 rounded-sm shadow-xl">
                 </div>
                 <div>
                     <div class="bg-[#FFE9E3] p-3 w-[60px] rounded-xl mb-5">
@@ -130,7 +130,7 @@
                     </p>
                 </div>
                 <div>
-                    <img src="assets/images/indx5.jpg" alt="" class="ml-60 rounded-sm shadow-xl">
+                    <img src="assets/images/indx5.jpg" alt="" class="md:ml-60 rounded-sm shadow-xl">
                 </div>
                 <div>
                     <div class="bg-[#FFE9E3] p-3 w-[60px] rounded-xl mb-5">
@@ -151,8 +151,8 @@
             <h2 class="text-3xl font-bold my-4">Coopératives emblématiques</h2>
             <p>Découvrez des collectifs engagés pour l'autonomisation locale et la transmission des gestes ancestraux.</p>
             <a href="cooperatives.html">Consulter l'annuaire complet</a>
-            <article class="flex justify-around my-10">
-                <div class="bg-red-50 rounded-xl shadow-xl p-6">
+            <article class="flex justify-around my-10 flex-wrap">
+                <div class="bg-red-50 rounded-xl shadow-xl p-6 my-4">
                     <img src="assets/images/last-1-index.jpg" alt="women making tapis" class="rounded-xl">
                     <h3 class="text-xl font-bold my-5 ml-3">Coopérative Tithrit</h3>
                     <!-- <p>Collectif de 45 artisanes dédié à la préservation des
@@ -162,7 +162,7 @@
                     </p> -->
                     <a href="cooperative.html" class="bg-[#556B2F] text-white rounded font-medium shadow-md hover:opacity-75 transition duration-200 p-1 px-3">Voir le profil de l'atelier</a>
                 </div>
-                <div class="bg-red-50 rounded-xl shadow-xl p-6">
+                <div class="bg-red-50 rounded-xl shadow-xl p-6 my-4">
                     <img src="assets/images/last-2-index.jpg" alt="women making argan" class="rounded-xl">
                     <h3 class="text-xl font-bold my-5 ml-3">Coopérative Afoulki Argan</h3>
                     <!-- <p>Coopérative féminine certifiée commerce équitable
@@ -171,7 +171,7 @@
                     </p> -->
                     <a href="cooperative.html" class="bg-[#556B2F] text-white rounded font-medium shadow-md hover:opacity-75 transition duration-200 p-1 px-3">Voir le profil de l'atelier</a>
                 </div>
-                <div class="bg-red-50 rounded-xl shadow-xl p-6">
+                <div class="bg-red-50 rounded-xl shadow-xl p-6 my-4">
                     <img src="assets/images/last-3-index.jpg" alt="" class="rounded-xl">
                     <h3 class="text-xl font-bold my-5 ml-3">Coopérative Fakhari Oued Laou</h3>
                     <!-- <p>Atelier communautaire perpétuant la poterie rurale
@@ -185,7 +185,7 @@
         <section>
             <h2 class="text-3xl font-bold text-center m-6">La voix de nos artisans et partenaires</h2>
             <p class="text-center">Ceux qui font vivre le répertoire et s'engagent pour la souveraineté du travail artisanal.</p>
-            <article class="flex justify-around my-12">
+            <article class="flex justify-around my-12 flex-wrap">
                 <div class="flex flex-col gap-4">
                     <img src="assets/icons/quote.png" alt="Quote icon" width="35">
                     <p class="font-bold">« Grâce à Taawon, notre coopérative de
@@ -221,7 +221,7 @@
             </article>
         </section>
     </main>
-    <footer class="bg-[#442A22] flex font-medium justify-around text-[#FFDDB2] p-8 mt-8">
+    <footer class="bg-[#442A22] flex font-medium justify-around flex-wrap text-[#FFDDB2] p-8 mt-8">
         <div>
             <h2 class="text-4xl mb-6">Tawoon</h2>
             <p>Plateforme d'archives, de référencement et de
@@ -231,7 +231,7 @@
             </p>
         </div>
         <div>
-            <h3 class="text-2xl mb-6">Nous Contact: </h3>
+            <h3 class="text-2xl mb-6 my-6">Nous Contact: </h3>
             <table>
                 <tr class="flex gap-3 mb-12">
                     <td><a href="https://X.com" target="_blank" class="hover:opacity-75 hover:invert transition duration-200"><img src="assets/icons/twitter.png" alt="twitter logo" width="25"></a></td>
