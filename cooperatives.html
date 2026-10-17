@@ -1,552 +1,680 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez l'authenticité de l'artisanat marocain. Explorez nos coopératives, soutenez nos artisans locaux et achetez des produits uniques du terroir.">
-    <title>Accueil-TAWOON</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez l'authenticité de l'artisanat marocain. Explorez nos coopératives, soutenez nos artisans locaux et achetez des produits uniques du terroir.">
+  <title>Les Coopératives Artisanales Référencées - TAAWON</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-primary: #556B2F;
+      --color-secondary: #C0392B;
+      --color-tertiary: #E0C097;
+      --color-neutral: #5D4037;
+      --color-dark: #2A211D;
+      --color-surface: #FDF4F0;
+      --color-secondary-light: #F9E8E2;
+      --color-line: #EFE3DC;
+
+      --font-headline: "Playfair Display", Georgia, serif;
+      --font-body: "Plus Jakarta Sans", sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <header class="text-gray-600 flex flex-wrap items-center justify-center">
+
+<body class="bg-surface text-dark font-body">
+
+  <header class="text-gray-600 flex flex-wrap items-center justify-center">
         <a href="index.html"><img src="assets/images/logo-no-background.png" alt="logo de taawoniya" width="190" class="flex justify-center items-center"></a>
         <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base flex-start gap-5">
                 <a href="index.html">Accueil</a>
-                <a href="cooperatives.html" class="inline-block px-6 py-2.5 bg-[#556B2F] text-white font-medium text-sm rounded shadow-md hover:opacity-75 transition duration-200">Coopératives</a>
-                <a href="a-propos.html">À propos</a>
+                <a href="cooperatives.html">Coopératives</a>
+                <a href="a-propos.html" class="inline-block px-6 py-2.5 bg-[#556B2F] text-white font-medium text-sm rounded shadow-md hover:opacity-75 transition duration-200">À propos</a>
         </nav>
         <a href="partenaire.html" class="flex flex-start items-center mr-8 bg-[#556B2F] text-white rounded font-medium shadow-md hover:opacity-75 transition duration-200 w-40 h-11 m-8 pl-3">Devenir partenaire</a>
     </header>
-<main>
-    <section>
-        <div>
-            <div>
-                <span>RÉPERTOIRE NATIONAL & CARTOGRAPHIE</span>
-                <span>•</span>
-                <span>Édition Patrimoniale 2024</span>
-            </div>
-            <h1>Les Coopératives Artisanales Référencées</h1>
-            <p>Un inventaire vivant dédié à la sauvegarde des savoir-faire ancestraux du Royaume. Nous favorisons le contact humain direct et la transmission pérenne des ateliers régionaux, à l'abri de toute spéculation commerciale ou intermédiaire opaque.</p>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 py-10 space-y-12">
+
+    <section class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+      <div class="max-w-2xl space-y-4">
+        <div class="flex flex-wrap items-center gap-2 text-xs">
+          <span class="inline-flex items-center gap-1.5 bg-secondary-light text-secondary px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+            <span>•</span> RÉPERTOIRE NATIONAL & CARTOGRAPHIE
+          </span>
+          <span class="text-neutral/70">•</span>
+          <span class="text-neutral/80 text-xs">Édition Patrimoniale 2024</span>
         </div>
-        <div>
-            <div>
-                <span>148</span>
-                <p>ATELIERS HOMOLOGUÉS</p>
-            </div>
-            <div>
-                <span>12</span>
-                <p>RÉGIONS COUVERTES</p>
-            </div>
-            <div>
-                <span>2 400+</span>
-                <p>MAÎTRES ARTISANS</p>
-            </div>
+        <h1 class="font-headline text-3xl sm:text-4xl lg:text-5xl font-semibold text-dark leading-tight">
+          Les Coopératives Artisanales Référencées
+        </h1>
+        <p class="text-sm text-neutral/80 leading-relaxed">
+          Un inventaire vivant dédié à la sauvegarde des savoir-faire ancestraux du Royaume. Nous favorisons le contact humain direct et la transmission pérenne des ateliers régionaux, à l'abri de toute spéculation commerciale ou intermédiaire opaque.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 border border-line shadow-2xs grid grid-cols-3 divide-x divide-line min-w-[310px] sm:min-w-[380px]">
+        <div class="px-4 first:pl-0">
+          <span class="font-headline text-2xl sm:text-3xl font-bold block text-primary">148</span>
+          <p class="text-[10px] font-bold uppercase tracking-wider text-neutral/70 block mt-1 leading-tight">ATELIERS<br>HOMOLOGUÉS</p>
         </div>
+        <div class="px-4">
+          <span class="font-headline text-2xl sm:text-3xl font-bold block text-secondary">12</span>
+          <p class="text-[10px] font-bold uppercase tracking-wider text-neutral/70 block mt-1 leading-tight">RÉGIONS<br>COUVERTES</p>
+        </div>
+        <div class="px-4 last:pr-0">
+          <span class="font-headline text-2xl sm:text-3xl font-bold block text-neutral">2 400+</span>
+          <p class="text-[10px] font-bold uppercase tracking-wider text-neutral/70 block mt-1 leading-tight">MAÎTRES<br>ARTISANS</p>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <div>
-            <img src="assets/icons/compass.png" alt="compass logo" width="20">
-            <span>ACCÈS RAPIDE PAR FILIÈRE D'EXCELLENCE :</span>
+    <section class="space-y-3 pt-2">
+      <div class="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-neutral/80">
+        <img src="assets/icons/compass.png" alt="compass logo" class="w-3.5 h-3.5 object-contain">
+        <span>ACCÈS RAPIDE PAR FILIÈRE D'EXCELLENCE :</span>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-3">
+        <div class="inline-flex items-center gap-2 bg-white hover:bg-secondary-light/60 transition-colors px-4 py-2.5 rounded-full border border-line shadow-2xs text-xs cursor-pointer">
+          <span class="text-secondary text-base leading-none">•</span>
+          <span class="font-semibold text-dark">Tissage & Tapis</span>
+          <span class="text-neutral/80 font-normal">(Khénifra, Taznakht)</span>
+        </div>
+
+        <div class="inline-flex items-center gap-2 bg-white hover:bg-secondary-light/60 transition-colors px-4 py-2.5 rounded-full border border-line shadow-2xs text-xs cursor-pointer">
+          <span class="text-primary text-base leading-none">•</span>
+          <span class="font-semibold text-dark">Argan & Cosmétique</span>
+          <span class="text-neutral/80 font-normal">(Taroudant, Essaouira)</span>
+        </div>
+
+        <div class="inline-flex items-center gap-2 bg-white hover:bg-secondary-light/60 transition-colors px-4 py-2.5 rounded-full border border-line shadow-2xs text-xs cursor-pointer">
+          <span class="text-secondary text-base leading-none">•</span>
+          <span class="font-semibold text-dark">Poterie & Zellige</span>
+          <span class="text-neutral/80 font-normal">(Safi, Fès, Oued Laou)</span>
+        </div>
+
+        <div class="inline-flex items-center gap-2 bg-white hover:bg-secondary-light/60 transition-colors px-4 py-2.5 rounded-full border border-line shadow-2xs text-xs cursor-pointer">
+          <span class="text-neutral text-base leading-none">•</span>
+          <span class="font-semibold text-dark">Travail du Cuir & Bois</span>
+          <span class="text-neutral/80 font-normal">(Fès, Essaouira)</span>
+        </div>
+      </div>
+    </section>
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']"> TERROIR & APICULTURE ANCESTRALE</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Miels Purs & Trésors de la Ruche</h2>
         </div>
         <div>
-            <div>
-                <span>•</span>
-                <span>Tissage & Tapis</span>
-                <span>(Khénifra, Taznakht)</span>
-            </div>
-            <div>
-                <span>•</span>
-                <span>Argan & Cosmétique</span>
-                <span>(Taroudant, Essaouira)</span>
-            </div>
-            <div>
-                <span>•</span>
-                <span>Poterie & Zellige</span>
-                <span>(Safi, Fès, Oued Laou)</span>
-            </div>
-            <div>
-                <span>•</span>
-                <span>Travail du Cuir & Bois</span>
-                <span>(Fès, Essaouira)</span>
-            </div>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Récolte respectueuse en ruchers traditionnels, extraction à froid et préservation de la biodiversité florale des montagnes et vallées présahariennes.</p>
         </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/6-1.jpg" alt="Coopérative Afoulki Argan" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>RUCHER TRADITIONNEL</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>45 apiculteurs</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Inzerki • Souss-Massa</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Taddart d'Inzerki</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Gardienne du plus grand rucher collectif traditionnel en terre et roseau. Récolte saisonnière de miel de thym et de lavande sauvage selon des méthodes séculaires.pml:</p>
+            </div>
+            <a href="cooperative.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/6-2.jpg" alt="Coopérative Mogador Terroirs" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>FLORE ENDÉMIQUE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>32 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Tafraout • Anti-Atlas </span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">CCoopérative Ruchers de l'Ameln</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Production de miels rares d'euphorbe (Daghmous), de caroubier et de fleurs d'amandier. Apiculture pastorale valorisant les plantes médicinales de haute montagne.</p>
+            </div>
+            <a href="cooperative.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/6-3.jpg" alt="Coopérative Tafoukt de l'Arganeraie" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>EXTRACTION À FROID</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>28 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Azilal • Haut-Atlas</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Abeille d'Or de l'Atlas</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Pressage artisanal des rayons de cire pure et conditionnement à cru sans chauffage pour conserver toutes les vertus thérapeutiques et arômes du nectar.</p>
+            </div>
+            <a href="cooperative.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <span>FILIÈRE LAINE & MÉTIERS À TISSER</span>
-                <h2>Tissage & Tapis Ancestral</h2>
-            </div>
-            <div>
-                <p>Symbologie amazighe séculaire, nœuds denses au fil de laine d'alpage vierge et teinture naturelle à base de garance, safran et écorce de grenadier.</p>
-            </div>
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']">FILIÈRE LAINE & MÉTIERS À TISSER</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Tissage & Tapis Ancestral</h2>
         </div>
-        
         <div>
-            <article>
-                <div>
-                    <img src="assets/images/1-1.png" alt="Coopérative Tithrit">
-                    <div>
-                        <span>LAINE & TISSAGE</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>32 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Khénifra • Béni Mellal-Khénifra</span>
-                    </div>
-                    <h3>Coopérative Tithrit</h3>
-                    <p>Gardiennes des motifs géométriques du Moyen-Atlas. Tapis Zayane et Hanbel confectionnés entièrement à partir de toisons locales lavées à l’eau</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/1-2.jpg" alt="Coopérative Tisseuses de Taznakht">
-                    <div>
-                        <span>TAPIS OUZGUITA</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>48 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Taznakht • Drâa-Tafilalet</span>
-                    </div>
-                    <h3>Coopérative Tisseuses de Taznakht</h3>
-                    <p>Tissage renommé de l'Anti-Atlas. Les toisons soyeuses de la race locale « Siroua » sont cardées à la main puis filées au fuseau traditionnel avant…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/1-3.jpg" alt="Coopérative Art Tissé de Taourirt">
-                    <div>
-                        <span>KILIM & TISSÉ PLAT</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>26 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Ouarzazate • Drâa-Tafilalet</span>
-                    </div>
-                    <h3>Coopérative Art Tissé de Taourirt</h3>
-                    <p>Transmission de l'art du tissage à plat aux abords de la kasbah historique. Utilisation exclusive de fibres naturelles brutes sans solvants ni colorants de…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Symbologie amazighe séculaire, nœuds denses au fil de laine d'alpage vierge et teinture naturelle à base de garance, safran et écorce de grenadier.</p>
         </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/1-1.jpg" alt="Coopérative Tithrit" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>LAINE & TISSAGE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>32 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Khénifra • Béni Mellal-Khénifra</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Tithrit</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Gardiennes des motifs géométriques du Moyen-Atlas. Tapis Zayane et Hanbel confectionnés entièrement à partir de toisons locales lavées à l’eau</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/1-2.jpg" alt="Coopérative Tisseuses de Taznakht" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>TAPIS OUZGUITA</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>48 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Taznakht • Drâa-Tafilalet</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Tisseuses de Taznakht</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Tissage renommé de l'Anti-Atlas. Les toisons soyeuses de la race locale « Siroua » sont cardées à la main puis filées au fuseau traditionnel avant…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/1-3.jpg" alt="Coopérative Art Tissé de Taourirt" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>KILIM & TISSÉ PLAT</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>26 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Ouarzazate • Drâa-Tafilalet</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Art Tissé de Taourirt</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Transmission de l'art du tissage à plat aux abords de la kasbah historique. Utilisation exclusive de fibres naturelles brutes sans solvants ni colorants de…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']">TERROIR & SAVOIR-FAIRE FÉMININ</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Argan & Cosmétique Naturelle</h2>
+        </div>
+        <div>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Concassage ancestral à la pierre, pressage à froid et extraction manuelle préservant l'intégrité biologique de l'arbre endémique de l'arganier.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/2-1.jpg" alt="Coopérative Afoulki Argan" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>ARGAN EXTRA-VIERGE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>52 adhérentes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Taroudant • Souss-Massa</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Afoulki Argan</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Extraction à froid certifiée par les aînées de la plaine du Souss. Préparation d'huile alimentaire torréfiée au feu de bois et d'huiles de soin…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/2-2.jpg" alt="Coopérative Mogador Terroirs" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>BOTANIQUE & HUILES</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>34 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Essaouira • Marrakech-Safi</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Mogador Terroirs</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Récolte forestière raisonnée de la forêt littorale d'Essaouira. Savoirs transmis sur la distillation de plantes aromatiques sauvages et la confection de…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/2-3.jpg" alt="Coopérative Tafoukt de l'Arganeraie" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>PATRIMOINE VIVANT</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>40 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Aït Baha • Souss-Massa</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Tafoukt de l'Arganeraie</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Située au cœur de la Réserve de Biosphère, cette coopérative solidaire assure la préservation écologique des arbres centenaires et produit un…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']">ARTS DU FEU & TAILLE GÉOMÉTRIQUE</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Poterie & Zellige</h2>
+        </div>
+        <div>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Argile rouge chamottée de Safi, émaillage bleuté de Fès et poterie modelée aux pigments minéraux du Rif.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/3-1.jpg" alt="Coopérative Poterie Rouge de Safi" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>ARGILE & ÉMAIL</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>38 maîtres potiers</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Safi • Marrakech-Safi</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Poterie Rouge de Safi</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Héritiers des fours séculaires de la colline de Safi. Création de pièces tournées à la main, séchées au grand air de l'Atlantique et cuites selon les courbes</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/3-2.jpg" alt="Coopérative Zellige Maâlem Driss" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>ZELLIGE D'ART</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>45 maîtres artisans</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Fès • Fès-Meknès</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Zellige Maâlem Driss</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Haute précision de la taille géométrique au manqach. Assemblage inversé selon les règles de composition hispano-mauresque pour fontaines,…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/3-3.jpg" alt="Coopérative Fakhari Oued Laou" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>POTERIE RIFAINE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>29 potières</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Oued Laou • Tanger-Tétouan-Al Hoceïma</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Fakhari Oued Laou</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Poterie modelée au colombin sans tour par les femmes des montagnes du Rif. Cuisson ancestrale à feu ouvert et décorations au jus d'écorce de…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <span>TERROIR & SAVOIR-FAIRE FÉMININ</span>
-                <h2>Argan & Cosmétique Naturelle</h2>
-            </div>
-            <div>
-                <p>Concassage ancestral à la pierre, pressage à froid et extraction manuelle préservant l'intégrité biologique de l'arbre endémique de l'arganier.</p>
-            </div>
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']">MAROQUINERIE VÉGÉTALE & ÉBÉNISTERIE</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Travail du Cuir & Loupe de Thuya</h2>
         </div>
-        
         <div>
-            <article>
-                <div>
-                    <img src="assets/images/2-1.jpg" alt="Coopérative Afoulki Argan">
-                    <div>
-                        <span>ARGAN EXTRA-VIERGE</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>52 adhérentes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Taroudant • Souss-Massa</span>
-                    </div>
-                    <h3>Coopérative Afoulki Argan</h3>
-                    <p>Extraction à froid certifiée par les aînées de la plaine du Souss. Préparation d'huile alimentaire torréfiée au feu de bois et d'huiles de soin…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/2-2.jpg" alt="Coopérative Mogador Terroirs">
-                    <div>
-                        <span>BOTANIQUE & HUILES</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>34 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Essaouira • Marrakech-Safi</span>
-                    </div>
-                    <h3>Coopérative Mogador Terroirs</h3>
-                    <p>Récolte forestière raisonnée de la forêt littorale d'Essaouira. Savoirs transmis sur la distillation de plantes aromatiques sauvages et la confection de…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/2-3.jpg" alt="Coopérative Tafoukt de l'Arganeraie">
-                    <div>
-                        <span>PATRIMOINE VIVANT</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>40 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Aït Baha • Souss-Massa</span>
-                    </div>
-                    <h3>Coopérative Tafoukt de l'Arganeraie</h3>
-                    <p>Située au cœur de la Réserve de Biosphère, cette coopérative solidaire assure la préservation écologique des arbres centenaires et produit un…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Peaux tannées aux écorces et fientes de pigeon dans les cuves médiévales de Chouara, et marqueterie fine en loupe de thuya odorante et bois de citronnier.</p>
         </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/4-1.jpg" alt="Coopérative Tifawin du Cuir" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>CUIR TANNAGE VÉGÉTAL</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>31 maroquiniers</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Fès • Fès-Meknès</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Tifawin du Cuir</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Cuirs souples façonnés selon les méthodes des tanneurs de Chouara. Confection d’articles de sellerie, babouches citadines et sacs cousus au fil de</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/4-2.jpg" alt="Coopérative Bois de Thuya Essaouira" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>LOUPE DE THUYA & NACRE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>27 maîtres sculpteurs</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Essaouira • Marrakech-Safi</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Bois de Thuya Essaouira</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Spécialistes de la racine noueuse du Tetraclinis articulata. Polissage naturel à la cire d’abeille vierge mettant en exergue les nœuds dorés et l’effluve…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/4-3.jpg" alt="Coopérative Al-Koutoubia Cuir" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>RELIURE & DORURE</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>19 artisans</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Marrakech • Marrakech-Safi</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Al-Koutoubia Cuir</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Restauration du geste de la dorure à chaud au fer et du gaufrage sur cuir de chèvre. Valorisation des finitions brutes et souplesse exceptionnelle des…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <span>ARTS DU FEU & TAILLE GÉOMÉTRIQUE</span>
-                <h2>Poterie & Zellige</h2>
-            </div>
-            <div>
-                <p>Argile rouge chamottée de Safi, émaillage bleuté de Fès et poterie modelée aux pigments minéraux du Rif.</p>
-            </div>
+    <section class="space-y-8 pt-8 border-t border-line">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div class="space-y-1">
+          <span class="text-[11px] font-bold uppercase tracking-widest text-secondary block before:content-['—_']">FIBRES OASIENNES & VÉGÉTAL TRESSÉ</span>
+          <h2 class="font-headline text-2xl md:text-3xl font-semibold text-dark">Vannerie & Éco-fibres</h2>
         </div>
-        
         <div>
-            <article>
-                <div>
-                    <img src="assets/images/3-1.jpg" alt="Coopérative Poterie Rouge de Safi">
-                    <div>
-                        <span>ARGILE & ÉMAIL</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>38 maîtres potiers</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Safi • Marrakech-Safi</span>
-                    </div>
-                    <h3>Coopérative Poterie Rouge de Safi</h3>
-                    <p>Héritiers des fours séculaires de la colline de Safi. Création de pièces tournées à la main, séchées au grand air de l'Atlantique et cuites selon les courbes</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/3-2.jpg" alt="Coopérative Zellige Maâlem Driss">
-                    <div>
-                        <span>ZELLIGE D'ART</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>45 maîtres artisans</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Fès • Fès-Meknès</span>
-                    </div>
-                    <h3>Coopérative Zellige Maâlem Driss</h3>
-                    <p>Haute précision de la taille géométrique au manqach. Assemblage inversé selon les règles de composition hispano-mauresque pour fontaines,…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/3-3.jpg" alt="Coopérative Fakhari Oued Laou">
-                    <div>
-                        <span>POTERIE RIFAINE</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>29 potières</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Oued Laou • Tanger-Tétouan-Al Hoceïma</span>
-                    </div>
-                    <h3>Coopérative Fakhari Oued Laou</h3>
-                    <p>Poterie modelée au colombin sans tour par les femmes des montagnes du Rif. Cuisson ancestrale à feu ouvert et décorations au jus d'écorce de…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
+          <p class="text-xs text-neutral/80 leading-relaxed max-w-md">Feuilles de palmier dattier, fibres de doum et roseau sauvage des vallées présahariennes tressés à sec ou humidifiés selon la saison.</p>
         </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/5-1.jpg" alt="Coopérative Vannerie du Drâa" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>PALMIER DATTIER</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>35 vanniers</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Zagora • Drâa-Tafilalet</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Vannerie du Drâa</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Mise en valeur durable des sous-produits de l’oasis. Les palmes tombées sont refendues à l’ongle puis entrelacées en paniers robustes, nattes de sol et…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/5-2.jpg" alt="Coopérative Fibres de l'Atlas" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>DOUM & ALFA</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>24 artisanes</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Midelt • Drâa-Tafilalet</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Fibres de l'Atlas</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Tressage fin de la fibre d'alfa montagnarde et du palmier nain. Des créations durables et souples qui réemploient les végétaux spontanés des plateaux…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-2xl overflow-hidden border border-line shadow-2xs hover:shadow-md transition-shadow flex flex-col">
+          <div class="relative h-52 w-full overflow-hidden">
+            <img src="assets/images/5-3.jpg" alt="Coopérative Sparterie du Tafilalet" class="w-full h-full object-cover object-center">
+            <div class="absolute top-3 left-3 bg-white/95 text-dark text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-2xs"><span>ROSEAU & JONC</span></div>
+            <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1.5">
+              <img src="assets/icons/members.png" alt="logo des memebre" class="w-3.5 h-3.5 object-contain">
+              <span>30 artisans</span>
+            </div>
+          </div>
+          <div class=" p-5 flex flex-col flex-1 justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-1.5 text-xs font-medium text-secondary">
+                <img src="assets/icons/location.png" alt="logo de localisation" class="w-3.5 h-3.5 object-contain">
+                <span>Rissani • Drâa-Tafilalet</span>
+              </div>
+              <h3 class="font-headline text-lg font-semibold text-dark">Coopérative Sparterie du Tafilalet</h3>
+              <p class="text-xs text-neutral/80 leading-relaxed line-clamp-3">Préservation de la sparterie nomade. Joncs séchés au soleil saharien et tressés serrés pour assurer imperméabilité et fraîcheur aux récipients de…</p>
+            </div>
+            <a href="erreur.html" class="w-full bg-secondary-light/80 hover:bg-secondary-light transition-colors text-dark text-xs font-semibold py-3 px-4 rounded-xl flex items-center justify-between mt-auto">
+              <span>Voir la fiche atelier</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-        <div>
-            <div>
-                <span>MAROQUINERIE VÉGÉTALE & ÉBÉNISTERIE</span>
-                <h2>Travail du Cuir & Loupe de Thuya</h2>
-            </div>
-            <div>
-                <p>Peaux tannées aux écorces et fientes de pigeon dans les cuves médiévales de Chouara, et marqueterie fine en loupe de thuya odorante et bois de citronnier.</p>
-            </div>
+    <section class="pt-8">
+      <div class="bg-white rounded-3xl p-8 md:p-12 border border-line shadow-2xs text-center max-w-4xl mx-auto space-y-6">
+        <span class="inline-block bg-secondary-light text-secondary text-[11px] font-bold uppercase tracking-widest px-3.5 py-1 rounded-full">
+          APPEL D'INTÉGRATION AU RÉPERTOIRE
+        </span>
+        <h2 class="font-headline text-2xl sm:text-3xl md:text-4xl font-semibold text-dark">
+          Vous représentez une coopérative artisanale marocaine ?
+        </h2>
+        <p class="text-sm text-neutral/80 leading-relaxed max-w-2xl mx-auto">
+          Déposez la candidature de votre atelier pour figurer dans notre registre patrimonial officiel. Le référencement sur Taawon est gratuit, sans commission commerciale, et conçu pour valoriser votre statut de maître artisan auprès des passionnés et des institutions du monde entier.
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
+          <a href="#" class="bg-primary text-white text-xs font-semibold px-6 py-3.5 rounded-xl shadow-xs hover:opacity-90 transition">
+            <span>Rejoindre le Répertoire</span>
+          </a>
+          <a href="partenaire.html" class="bg-secondary-light text-dark text-xs font-semibold px-6 py-3.5 rounded-xl hover:opacity-90 transition">
+            <span>Consulter la charte éthique</span>
+          </a>
         </div>
-        
-        <div>
-            <article>
-                <div>
-                    <img src="assets/images/4-1.jpg" alt="Coopérative Tifawin du Cuir">
-                    <div>
-                        <span>CUIR TANNAGE VÉGÉTAL</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>31 maroquiniers</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20"> 
-                        <span>Fès • Fès-Meknès</span>
-                    </div>
-                    <h3>Coopérative Tifawin du Cuir</h3>
-                    <p>Cuirs souples façonnés selon les méthodes des tanneurs de Chouara. Confection d’articles de sellerie, babouches citadines et sacs cousus au fil de</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/4-2.jpg" alt="Coopérative Bois de Thuya Essaouira">
-                    <div>
-                        <span>LOUPE DE THUYA & NACRE</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>27 maîtres sculpteurs</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Essaouira • Marrakech-Safi</span>
-                    </div>
-                    <h3>Coopérative Bois de Thuya Essaouira</h3>
-                    <p>Spécialistes de la racine noueuse du Tetraclinis articulata. Polissage naturel à la cire d’abeille vierge mettant en exergue les nœuds dorés et l’effluve…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/4-3.jpg" alt="Coopérative Al-Koutoubia Cuir">
-                    <div>
-                        <span>RELIURE & DORURE</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>19 artisans</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Marrakech • Marrakech-Safi</span>
-                    </div>
-                    <h3>Coopérative Al-Koutoubia Cuir</h3>
-                    <p>Restauration du geste de la dorure à chaud au fer et du gaufrage sur cuir de chèvre. Valorisation des finitions brutes et souplesse exceptionnelle des…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
+        <div class="flex flex-wrap items-center justify-center gap-6 pt-4 border-t border-lineine text-xs text-neutral/80">
+          <div class="flex items-center gap-2">
+            <img src="assets/icons/verified.png" alt="verified logo" class="w-4 h-4 object-contain">
+            <span>Zéro frais de référencement</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="assets/icons/verified.png" alt="verified logo" class="w-4 h-4 object-contain">
+            <span>Vérification d'authenticité sur le terrain</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="assets/icons/verified.png" alt="verified logo" class="w-4 h-4 object-contain">
+            <span>Mise en relation directe sans intermédiaire</span>
+          </div>
         </div>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <span>FIBRES OASIENNES & VÉGÉTAL TRESSÉ</span>
-                <h2>Vannerie & Éco-fibres</h2>
-            </div>
-            <div>
-                <p>Feuilles de palmier dattier, fibres de doum et roseau sauvage des vallées présahariennes tressés à sec ou humidifiés selon la saison.</p>
-            </div>
-        </div>
-        
-        <div>
-            <article>
-                <div>
-                    <img src="assets/images/5-1.jpg" alt="Coopérative Vannerie du Drâa">
-                    <div>
-                        <span>PALMIER DATTIER</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>35 vanniers</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Zagora • Drâa-Tafilalet</span>
-                    </div>
-                    <h3>Coopérative Vannerie du Drâa</h3>
-                    <p>Mise en valeur durable des sous-produits de l’oasis. Les palmes tombées sont refendues à l’ongle puis entrelacées en paniers robustes, nattes de sol et…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/5-2.jpg" alt="Coopérative Fibres de l'Atlas">
-                    <div>
-                        <span>DOUM & ALFA</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>24 artisanes</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Midelt • Drâa-Tafilalet</span>
-                    </div>
-                    <h3>Coopérative Fibres de l'Atlas</h3>
-                    <p>Tressage fin de la fibre d'alfa montagnarde et du palmier nain. Des créations durables et souples qui réemploient les végétaux spontanés des plateaux…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-
-            <article>
-                <div>
-                    <img src="assets/images/5-3.jpg" alt="Coopérative Sparterie du Tafilalet">
-                    <div>
-                        <span>ROSEAU & JONC</span>
-                    </div>
-                    <div>
-                        <img src="assets/icons/members.png" alt="logo des memebre" width="20">
-                        <span>30 artisans</span>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="assets/icons/location.png" alt="logo de localisation" width="20">
-                        <span>Rissani • Drâa-Tafilalet</span>
-                    </div>
-                    <h3>Coopérative Sparterie du Tafilalet</h3>
-                    <p>Préservation de la sparterie nomade. Joncs séchés au soleil saharien et tressés serrés pour assurer imperméabilité et fraîcheur aux récipients de…</p>
-                    <a href="#">
-                        <span>Voir la fiche atelier</span>
-                        <span>...</span>
-                    </a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <span>APPEL D'INTÉGRATION AU RÉPERTOIRE</span>
-            <h2>Vous représentez une coopérative artisanale marocaine ?</h2>
-            <p>Déposez la candidature de votre atelier pour figurer dans notre registre patrimonial officiel. Le référencement sur Taawon est gratuit, sans commission commerciale, et conçu pour valoriser votre statut de maître artisan auprès des passionnés et des institutions du monde entier.</p>
-            <div>
-                <a href="#">
-                    <span>Rejoindre le Répertoire</span>
-                </a>
-                <a href="#">
-                    <span>Consulter la charte éthique</span>
-                </a>
-            </div>
-            <div>
-                <div>
-                    <img src="assets/icons/verified.png" alt="verified logo" width="20">
-                    <span>Zéro frais de référencement</span>
-                </div>
-                <div>
-                    <img src="assets/icons/verified.png" alt="verified logo" width="20">
-                    <span>Vérification d'authenticité sur le terrain</span>
-                </div>
-                <div>
-                    <img src="assets/icons/verified.png" alt="verified logo" width="20">
-                    <span>Mise en relation directe sans intermédiaire</span>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
 </main>
     <footer class="bg-[#442A22] flex font-medium justify-around flex-wrap text-[#FFDDB2] p-8 mt-8">
@@ -571,5 +699,6 @@
             <p>© 2024 Taawon. Répertoire de sauvegarde des coopératives artisanales marocaines.</p>
         </div>
     </footer>
+
 </body>
 </html>
