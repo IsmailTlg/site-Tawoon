@@ -3,15 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
-<main>
- <h1>ERREUR 404</h1>
-  <img src="assets/images/logoTawoon.png" alt="logo de Tawoon-retour a l'accueil">
- <a href="index.html">Retourner a laccueil</a>
-</main>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>ERREUR 404</title>
+    <style type="text/tailwindcss">
+
+ 
+    @theme {
+      --color-primary: #556B2F;
+      --color-secondary: #C0392B;
+      --color-neutral: #5D4037;
+      --color-dark: #2A211D;
+      --color-surface: #FDF4F0;
+      --color-secondary-light: #F9E8E2;
+      --color-line: #EFE3DC;
+      --color-heading: #5F4828;
+
+      --font-headline: "Playfair Display", Georgia, serif;
+      --font-body: "Plus Jakarta Sans", sans-serif;
+    }
+  </style>
+    </style>
+</head>
+<body class="bg-surface text-dark font-body min-h-screen flex flex-col">
+     <header class="p-6">
+  </header>
+  <main class="flex-1 flex flex-col items-center justify-center text-center gap-6 px-4">
+    <h1 class="font-headline text-8xl text-heading">ERREUR 404</h1>
+    <p class="text-3xl text-neutral/60">La page n'existe pas.</p>
+    <a href="index.html" class="bg-primary text-white text-sm font-semibold px-6 py-3 rounded-xl hover:opacity-90 transition">
+      Retourner à l'accueil
+    </a>
+       <a href="index.html">
+      <img src="assets/images/logoTawoon.png" alt="Logo de Taawon, retour à l'accueil" width="190">
+    </a>
+  </main>
    
    
 </body>
